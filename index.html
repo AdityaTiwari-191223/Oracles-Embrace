@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle's Embrace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="oracle-embrace-logo.png" alt="Oracle's Embrace Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Mystery</a></li>
+                <li><a href="#">Box</a></li>
+                <li><a href="#">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="curtains"></div>
+        <div class="content">
+            <h2>UNVEIL THE UNKNOWN</h2>
+            <img src="oracle-box.jpg" alt="Oracle Mystery Box">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>About The Embox</h3>
+            <p>Unveil the enchantment contained within each Oracle box...</p>
+            <button data-target="#modal1">Learn More</button>
+        </div>
+        <div class="feature">
+            <h3>About The Mystery Within</h3>
+            <p>Discover the secrets hidden in each carefully curated item...</p>
+            <button data-target="#modal2">Learn More</button>
+        </div>
+        <div class="feature">
+            <h3>Subscription Plans</h3>
+            <p>Choose from various subscription options tailored to your needs...</p>
+            <button data-target="#modal3">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About The Embox</h2>
+            <p>Each Oracle box is meticulously crafted to bring you a unique experience. Inside, you'll find a selection of mystical items, each chosen for its special properties and significance.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About The Mystery Within</h2>
+            <p>The mystery within each box lies in the carefully selected items that hold ancient wisdom and power. From rare herbs to enchanted stones, every piece has a story to tell.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscription Plans</h2>
+            <p>Choose from our flexible subscription plans to ensure you never miss out on the latest mystical discoveries. Whether you prefer monthly or quarterly deliveries, we've got you covered.</p>
+        </div>
+    </div>
+
+    <footer>
+        <button onclick="window.location.href='subscribe.html'">Subscribe Now</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
